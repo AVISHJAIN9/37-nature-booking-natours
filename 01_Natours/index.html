@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Wanderly — Tours</title>
+  <meta name="description" content="Wanderly — curated outdoor tours and small-group experiences.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/logo-wanderly-color.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="header">
+    <div class="header__logo-box">
+      <img src="img/logo-wanderly-white.svg" alt="Wanderly logo" class="header__logo">
+    </div>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a class="navigation__link" href="#experiences">Experiences</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="#about">About</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary--main">Explore.</span>
+        <span class="heading-primary--sub">Small-group outdoor adventures</span>
+      </h1>
+      <a href="#experiences" class="btn btn--green btn--animated">Discover experiences</a>
+    </div>
+  </header>
+
+  <section id="experiences" class="section-features">
+    <div class="row">
+      <h2 class="heading-secondary">Top experiences</h2>
+
+      <div class="features">
+        <div class="feature-box">
+          <i class="feature-box__icon">🏔️</i>
+          <h3 class="heading-tertiary">Summit day trips</h3>
+          <p>Guided climbs for all experience levels.</p>
+        </div>
+
+        <div class="feature-box">
+          <i class="feature-box__icon">🏕️</i>
+          <h3 class="heading-tertiary">Backcountry camping</h3>
+          <p>Overnight trips with local guides and gear support.</p>
+        </div>
+
+        <div class="feature-box">
+          <i class="feature-box__icon">🛶</i>
+          <h3 class="heading-tertiary">Water & lake tours</h3>
+          <p>Paddle, swim, and relax at stunning water destinations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__logo-box">
+      <img src="img/logo-wanderly-color.svg" alt="Wanderly logo" class="footer__logo">
+    </div>
+    <p class="footer__copyright">© <span id="year"></span> Wanderly — crafted outdoor tours. All rights reserved.</p>
+    <script>
+      // simple footer year
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>

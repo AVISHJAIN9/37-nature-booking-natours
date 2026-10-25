@@ -1,0 +1,48 @@
+@use "../abstracts" as *;
+
+.u-center-text
+{
+    text-align: center !important;
+}
+
+.u-right-text
+{
+    text-align: right !important;
+}
+
+// MARGIN BOTTOM
+.u-margin-bottom-large
+{
+    margin-bottom: 8rem !important;
+
+    @include responsive(tablet)
+    {
+        margin-bottom: 5rem !important;
+    }
+}
+
+.u-margin-bottom-medium
+{
+    margin-bottom: 4rem !important;
+
+    @include responsive(tablet)
+    {
+        margin-bottom: 3rem !important;
+    }
+}
+
+.u-margin-bottom-small
+{
+    margin-bottom: 1.5rem !important;
+}
+
+// MARGIN TOP
+.u-margin-top-large
+{
+    margin-top: 8rem !important;
+}
+
+.u-margin-top-extra-large
+{
+    margin-top: 10rem !important;
+}
